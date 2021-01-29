@@ -1,0 +1,169 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+
+//<span>&nbsp;  | &nbsp;</span>
+//E3E3E3
+
+.columns, p, h1, h2, h3, h4, h5 {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+a {
+    color: black !important;
+}
+
+
+h4 {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 19px;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+
+.nav {
+
+    .bkcolor {
+        background-color: #4D4F4E;
+    }
+
+    .logo th {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .menu {
+
+        .menu-item {
+            padding: 4px !important;
+        }
+
+        a {
+            font-size: 11px;
+            color: #4c4f4d !important;
+            padding: 0 !important;
+        }
+
+        .divider {
+            pointer-events: none;
+        }
+    }
+
+    .hours {
+        background-color: #4D4F4E;
+
+        p {
+            font-size: 15px;
+            color: white;
+            line-height: 40px;
+        }
+    }
+}
+
+.cat-padding {
+    padding: 0 24px !important;
+}
+
+.section-1 {
+    background-color: #E3E3E3;
+
+    img {
+        width: 180px;
+    }
+
+    p {
+        font-size: 15px;
+        color: #CA0009 !important;
+        margin-top: 4px;
+    }
+
+    .row {
+        margin-top: 16px !important;  
+    }
+
+    .min-height {
+        //min-height: 400px;
+    }
+}
+
+
+.section-1-5 {
+    background-color: #4D4F4E;
+
+    a {
+        color: white !important;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 40px;
+    }
+}
+
+.section-3 {
+    .row {
+        margin-top: 16px !important;  
+    }
+
+    img {
+        width: 180px;
+    }
+
+    p {
+        font-size: 15px;
+        margin-top: 4px;
+        color: #CA0009 !important;
+    }
+}
+
+.footer {
+    h3 {
+        color: #4D4F4E;
+        font-size: 19px;
+    }
+
+    img {
+        height: 35px !important;
+    }
+
+    .card {
+        height: 50px;
+        width: auto;
+    }
+
+    p {
+        color: #4c4f4d;
+        font-size: 11px;
+        margin-top: 12px;
+    }
+
+    .links .menu-item a{
+        text-decoration: underline;
+        color: #4c4f4d !important;
+        font-size: 11px;
+        
+    }
+
+    .links .menu-item {
+            padding: 4px !important;
+            
+    }
+
+    .divider {
+        pointer-events: none;
+    }
+}
+
